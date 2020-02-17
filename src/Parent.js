@@ -4,11 +4,8 @@ import Child from './Child'
 
 class Parent extends Component {
 
-  constructor() {
-    super()
-    this.state = {
-      color: getRandomColor()
-    }
+  state = {
+    color: getRandomColor()
   }
 
   render() {
